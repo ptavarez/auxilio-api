@@ -1,24 +1,24 @@
-﻿name,description,category
-Simple Tune Up,"An auxer will come to your vehicle to check its engine condition. The mechanic will also replace the oil, spark plugs, fuel filter, air filter, and anything else that is needed. If the vehicle needs more maintenance, it will be taken to the mechanic’s shop.",Automotive
-Auto Body,"An auxer will come to your vehicle to remove damaged body parts, hammer out and patch dents and other minor body damage. A cost estimate for further repairs will be provided.",Automotive
-Jump,"An auxermwill come to your vehicle to remove damaged body parts, hammer out and patch dents and other minor body damage. A cost estimate for further repairs will be provided.",Automotive
-Tow,"If you get stranded somewhere or need your vehicle moved from one place to another, a tow truck will come to your aid.",Automotive
-Flat,Tires flat? We’ll have someone bring them back to life. ,Automotive
-Windshield Replacement,,Automotive
-Housecleaning,House dirty? Anything you need cleaned will be by one of our auxers.,Housekeeping
-Organization,"If you lack order in your life, we got you. We’ll organize your space! ",Housekeeping
-Rake Leaves,"Fall tends to “leave” a mess all over the place (get it). Don’t worry about having to rake that up, an auxer will take care of that.",Lawncare
-Planting,"Thumbs aren’t green? No worries, we got some.",Lawncare
-Mow lawn,"As fun as mowing a lawn may be, you’re too busy for that right now. Have an auxer come and take some of that fun away from you.",Lawncare
-Snow Removal,Sit back and drink some hot coco while someone else shovels up all that snow.,Lawncare
-House Moving,"Order anything you’re craving. If we could find it, we’ll get it to you… Just be realistic.",Delivery
-Dorm Moving,"Order anything you want. If we could find it, we’ll get it to you… Just be realistic.",Delivery
-Hanging ,"From portraits to televisions, if it’s hangable, we’ll hang it. ",Handiwork
-Plumbing,Unclog your drains with one of our Auxers.,Handiwork
-Electrical,"If it requires electricity, we could fix it. Or add it. Or whatever you need.",Handiwork
-Gutter Cleaning,"You do not want to climb up a 100-foot latter to clean you gutters. Trust me, it’s a lot of work. ",Handiwork
-Grooming,No home should have hair everywhere. Is this a problem for you? Let us groom your pet.,Pet Care
-Walk,Got no time to walk your hamster… I mean dog… We do!,Pet Care
-IT Support,"Any assistance needed with mobile phones, televisions, computers, software products or other informatic, electronic or mechanical goods? Not a problem.",Geek
-Barber,You need a haircut. Don’t leave your home. We’ll have someone come to you.,Cosmetics
-Hair Stylist,You need your hair done. Don’t leave your home. We’ll have someone come to you.,Cosmetics
+﻿,name,description,category
+,Simple Tune Up,"An auxer will come to your vehicle to check its engine condition. The mechanic will also replace the oil, spark plugs, fuel filter, air filter, and anything else that is needed. If the vehicle needs more maintenance, it will be taken to the mechanic’s shop.",Automotive
+,Auto Body,"An auxer will come to your vehicle to remove damaged body parts, hammer out and patch dents and other minor body damage. A cost estimate for further repairs will be provided.",Automotive
+,Jump,"An auxermwill come to your vehicle to remove damaged body parts, hammer out and patch dents and other minor body damage. A cost estimate for further repairs will be provided.",Automotive
+,Tow,"If you get stranded somewhere or need your vehicle moved from one place to another, a tow truck will come to your aid.",Automotive
+,Flat,Tires flat? We’ll have someone bring them back to life. ,Automotive
+,Windshield Replacement,,Automotive
+,Housecleaning,House dirty? Anything you need cleaned will be by one of our auxers.,Housekeeping
+,Organization,"If you lack order in your life, we got you. We’ll organize your space! ",Housekeeping
+,Rake Leaves,"Fall tends to “leave” a mess all over the place (get it). Don’t worry about having to rake that up, an auxer will take care of that.",Lawncare
+,Planting,"Thumbs aren’t green? No worries, we got some.",Lawncare
+,Mow lawn,"As fun as mowing a lawn may be, you’re too busy for that right now. Have an auxer come and take some of that fun away from you.",Lawncare
+,Snow Removal,Sit back and drink some hot coco while someone else shovels up all that snow.,Lawncare
+,House Moving,"Order anything you’re craving. If we could find it, we’ll get it to you… Just be realistic.",Delivery
+,Dorm Moving,"Order anything you want. If we could find it, we’ll get it to you… Just be realistic.",Delivery
+,Hanging ,"From portraits to televisions, if it’s hangable, we’ll hang it. ",Handiwork
+,Plumbing,Unclog your drains with one of our Auxers.,Handiwork
+,Electrical,"If it requires electricity, we could fix it. Or add it. Or whatever you need.",Handiwork
+,Gutter Cleaning,"You do not want to climb up a 100-foot latter to clean you gutters. Trust me, it’s a lot of work.",Handiwork
+,Grooming,No home should have hair everywhere. Is this a problem for you? Let us groom your pet.,Pet Care
+,Walk,Got no time to walk your hamster… I mean dog… We do!,Pet Care
+,IT Support,"Any assistance needed with mobile phones, televisions, computers, software products or other informatic, electronic or mechanical goods? Not a problem.",Geek
+,Barber,You need a haircut. Don’t leave your home. We’ll have someone come to you.,Cosmetics
+,Hair Stylist,You need your hair done. Don’t leave your home. We’ll have someone come to you.,Cosmetics
