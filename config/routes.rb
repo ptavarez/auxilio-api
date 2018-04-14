@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   resources :requests
-  resources :services, only: %i[index show update]
+  resources :services, only: %i[index show]
   # RESTful routes
   resources :examples, except: %i[new edit]
   resources :users, only: %i[index show update]
