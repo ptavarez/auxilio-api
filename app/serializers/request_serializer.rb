@@ -1,3 +1,5 @@
 class RequestSerializer < ActiveModel::Serializer
-  attributes :id, :fulfilled
+  attributes :id, :fulfilled, :date
+  has_one :user
+  has_one :service
 end
