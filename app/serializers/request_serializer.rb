@@ -1,9 +1,5 @@
-class RequestSerializer < ActiveModel::Serializer
-  attributes :id, :fulfilled, :date, :editable
-  has_one :user
-  has_one :service
+# frozen_string_literal: true
 
-  def editable
-    scope == object.user
-  end
+class RequestSerializer < ActiveModel::Serializer
+  attributes :id, :service, :fulfilled
 end

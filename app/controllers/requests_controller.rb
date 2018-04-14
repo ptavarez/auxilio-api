@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 class RequestsController < ApplicationController
   before_action :set_request, only: [:show, :update, :destroy]
 
   # GET /requests
   def index
-    @requests = current_user.requests.all
+    @requests = Request.all
 
     render json: @requests
   end
@@ -41,11 +43,11 @@ class RequestsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_request
-      @request = current_user.requests.find(params[:id])
+      @request = Request.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
     def request_params
-      params.require(:request).permit(:user_id, :service_id, :fulfilled, :date)
+      params.require(:request).permit(:service, :fulfilled)
     end
 end
