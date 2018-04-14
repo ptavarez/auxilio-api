@@ -3,7 +3,7 @@ class RequestsController < ApplicationController
 
   # GET /requests
   def index
-    @requests = Request.all
+    @requests = current_user.requests.all
 
     render json: @requests
   end
@@ -41,7 +41,7 @@ class RequestsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_request
-      @request = Request.find(params[:id])
+      @request = current_user.requests.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
