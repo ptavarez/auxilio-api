@@ -3,9 +3,9 @@ class AssistsController < OpenReadController
 
   # GET /assists
   def index
-    @assists = Assist.all
+    @assists = current_user.assists
 
-    render json: @base_query
+    render json: @assists
   end
 
   # GET /assists/1
@@ -38,10 +38,6 @@ class AssistsController < OpenReadController
     @assist.destroy
   end
 
-  def base_query
-    puts Assist.where('user_id = :user', user: current_user.id)
-  end
-
   # Use callbacks to share common setup or constraints between actions.
   def set_assist
     @assist = current_user.assists.find(params[:id])
@@ -52,5 +48,5 @@ class AssistsController < OpenReadController
     params.require(:assist).permit(:service, :fulfilled)
   end
 
-  private :base_query, :set_assist, :assist_params
+  private :set_assist, :assist_params
 end
