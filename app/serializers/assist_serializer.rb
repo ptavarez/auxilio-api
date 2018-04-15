@@ -1,5 +1,5 @@
 class AssistSerializer < ActiveModel::Serializer
-  attributes :id, :service, :fulfilled, :editable
+  attributes :id, :service, :fulfilled, :editable, :created_at
 
   def editable
     scope == object.user
