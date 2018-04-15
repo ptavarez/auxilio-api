@@ -1,4 +1,4 @@
-class AssistsController < OpenReadController
+class AssistsController < ProtectedController
   before_action :set_assist, only: [:show, :update, :destroy]
 
   # GET /assists
