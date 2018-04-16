@@ -7,7 +7,7 @@ curl "http://localhost:4741/assists" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "assist": {
-      "service": "'"${SERVICE}"'"
+      "service_id": "'"${SERVICE_ID}"'"
     }
   }'
 
