@@ -1,4 +1,4 @@
-class AssistsController < ProtectedController
+class AssistsController < OpenReadController
   before_action :set_assist, only: [:show, :update, :destroy]
 
   # GET /assists
@@ -45,7 +45,7 @@ class AssistsController < ProtectedController
 
   # Only allow a trusted parameter "white list" through.
   def assist_params
-    params.require(:assist).permit(:service, :fulfilled)
+    params.require(:assist).permit(:service_id, :fulfilled)
   end
 
   private :set_assist, :assist_params
