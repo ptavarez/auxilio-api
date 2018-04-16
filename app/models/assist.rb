@@ -1,5 +1,6 @@
 class Assist < ApplicationRecord
   belongs_to :user
+  belongs_to :service
 
   before_save :default_fulfilled
 
