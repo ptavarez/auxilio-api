@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :charges
   resources :assists
   resources :services, only: %i[index show]
   # RESTful routes
