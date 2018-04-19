@@ -1,10 +1,18 @@
 class ServicesController < ApplicationController
-  before_action :set_service, only: [:show, :update, :destroy]
+  before_action :set_service, only: [:show]
 
   # GET /services
   def index
     @services = Service.all
 
+    render json: @services
+  end
+
+  # SEARCH /search/:search
+  def search_services
+    @services = Service.where('description LIKE :search OR name LIKE :search OR
+                              category LIKE :search',
+                              search: "%#{params[:search]}%")
     render json: @services
   end
 
