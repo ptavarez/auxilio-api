@@ -10,6 +10,7 @@ csv.each do |row|
   s.name = row['name']
   s.description = row['description']
   s.category = row['category']
+  s.image = row['image']
   s.save
   puts "#{s.name} saved"
 end
