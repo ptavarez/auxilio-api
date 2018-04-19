@@ -3,7 +3,7 @@ class AssistsController < OpenReadController
 
   # GET /assists
   def index
-    @assists = Assist.all
+    @assists = current_user.assists
 
     render json: @assists
   end
