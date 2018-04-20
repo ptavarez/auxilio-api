@@ -74,6 +74,8 @@ In your terminal:
 
 [Assists](docs/assist.md)
 
+[Charges](docs/charge.md)
+
 ## Entity Relationship Diagram (ERD)
 [ERD](http://res.cloudinary.com/ptavarez/image/upload/v1523635953/auxilio-erd.jpg)
 
