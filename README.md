@@ -11,7 +11,7 @@ Auxilio is a web application that provides on demand services to those who need 
 ### Client URL
 [Deployment](https://pedrotavarez.com/auxilio/)
 
-[Github Repo](https://github.com/RaindropAndWee/raindrop-client)
+[Github Repo](https://github.com/ptavarez16/auxilio)
 
 ## Development Process
 It's been three months since I first started this journey, and I must say, I have no regrets. The skills I learned here have helped me grow into a full stack web developer.
@@ -53,7 +53,9 @@ Ohh Ember... I love and hate you. After smashing into a couple of walls, I was a
 
 ## API Guides
 [Users](docs/user.md)
+
 [Services](docs/service.md)
+
 [Assists](docs/assist.md)
 
 ## Entity Relationship Diagram (ERD)

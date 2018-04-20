@@ -229,7 +229,7 @@ If the request is successful, the response will have an HTTP Status of 200 OK,
             "category": "string",
             "image": "string"
           },
-      "fulfilled": false,
+      "fulfilled": true,
       "editable": true
       }
   ]
