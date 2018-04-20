@@ -1,7 +1,7 @@
 # Auxilio API
 
 ### An On Demand Service Provider
-Auxilio is a web application that provides on demand services to those who need some form of assistance. Users have to submit a request, or petitio, to this API to have a service fulfilled.
+Auxilio is a web application that provides on demand services to those who need some form of assistance. Users have to submit a request, or aux, to this API to have a service fulfilled.
 
 ## Links
 
@@ -14,7 +14,11 @@ Auxilio is a web application that provides on demand services to those who need 
 [Github Repo](https://github.com/RaindropAndWee/raindrop-client)
 
 ## Development Process
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+It's been three months since I first started this journey, and I must say, I have no regrets. The skills I learned here have helped me grow into a full stack web developer.
+
+I followed a pretty good schedule. Staying organzided, I was able to meet MVP in a couple of days. I started off building this API in Rails, then moved on to the client. The API was easy since I was in familiar territory (man I love Rails), but once I started with the client, things got a little tricky.
+
+Ohh Ember... I love and hate you. After smashing into a couple of walls, I was able to successfully build my first application using a front-end framework.
 
 ## API End Points
 
