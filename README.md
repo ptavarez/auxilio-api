@@ -20,6 +20,17 @@ I followed a pretty good schedule. Staying organzided, I was able to meet MVP in
 
 Ohh Ember... I love and hate you. After smashing into a couple of walls, I was able to successfully build my first application using a front-end framework.
 
+## Install Dependencies
+
+In your application's Gemfile:
+
+```gem 'stripe'```
+
+In your terminal:
+
+```bundle install```
+
+
 ## API End Points
 
 ### Authentication
@@ -50,6 +61,11 @@ Ohh Ember... I love and hate you. After smashing into a couple of walls, I was a
 | GET  | `/services/:id`  | `services#show` |
 | PATCH | `/services/:id`  | `services#update`|
 | DELETE |`/services/:id`| `services#destroy` |
+
+### Stripe Charges
+| Verb   | URI Pattern            | Controller#Action |
+|--------|------------------------|-------------------|
+| POST   | `/charges`             | `charges#create`    |
 
 ## API Guides
 [Users](docs/user.md)
