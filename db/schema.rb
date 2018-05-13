@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180513001432) do
+ActiveRecord::Schema.define(version: 20180513004604) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 20180513001432) do
     t.datetime "updated_at", null: false
     t.bigint "user_id"
     t.bigint "service_id"
+    t.bigint "driver_id"
+    t.index ["driver_id"], name: "index_assists_on_driver_id"
     t.index ["service_id"], name: "index_assists_on_service_id"
     t.index ["user_id"], name: "index_assists_on_user_id"
   end
@@ -64,6 +66,7 @@ ActiveRecord::Schema.define(version: 20180513001432) do
     t.index ["token"], name: "index_users_on_token", unique: true
   end
 
+  add_foreign_key "assists", "drivers"
   add_foreign_key "assists", "services"
   add_foreign_key "assists", "users"
   add_foreign_key "examples", "users"

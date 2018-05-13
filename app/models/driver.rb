@@ -2,4 +2,5 @@
 
 class Driver < ApplicationRecord
   include Authentication
+  has_many :assists
 end
