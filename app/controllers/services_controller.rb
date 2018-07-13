@@ -3,16 +3,12 @@ class ServicesController < ApplicationController
 
   # GET /services
   def index
-    @services = Service.all
+    @services = if params[:search]
+                  Service.search_for(params[:search])
+                else
+                  Service.all
+                end
 
-    render json: @services
-  end
-
-  # SEARCH /search/:search
-  def search_services
-    @services = Service.where('description LIKE :search OR name LIKE :search OR
-                              category LIKE :search',
-                              search: "%#{params[:search]}%")
     render json: @services
   end
 
