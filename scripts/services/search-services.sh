@@ -1,6 +1,8 @@
 #!/bin/bash
 
-curl "http://localhost:4741/search/${SEARCH}" \
+SEARCH='move'
+
+curl "http://localhost:4741/services?search=${SEARCH}" \
   --include \
   --request GET \
 
